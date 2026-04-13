@@ -12,7 +12,7 @@ public class Chatbot
 
     public void Start()
     {
-        Console.WriteLine($"\nHello {userName}! \"CyberSafe Buddy is ready!\"Ask me anything about cybersecurity.");
+        Console.WriteLine($"\nHello {userName}! \"CyberSafe Buddy is ready! ,Ask me anything about cybersecurity.");
 
         while (true)
         {
@@ -44,15 +44,15 @@ public class Chatbot
 
         if (input.Contains("password"))
         {
-            Console.WriteLine("Bot: Use strong passwords with a mix of letters, numbers, and symbols.");
+            Console.WriteLine("Bot:Your password is your first line of defense! Make it strong: use at least 12 characters, mix upper and lower case letters, numbers, and symbols. Avoid personal info like birthdays or names. And remember—never reuse the same password across accounts.");
         }
         else if (input.Contains("phishing"))
         {
-            Console.WriteLine("Bot: Be careful of suspicious emails and never click unknown links.");
+            Console.WriteLine("Bot: Think before you click! Phishing emails often look real but hide dangerous traps. Always check the sender’s address, avoid clicking suspicious links, and never share personal information through unexpected messages. Outsmart the phishers—your data depends on it!.");
         }
         else if (input.Contains("safe browsing"))
         {
-            Console.WriteLine("Bot: Always check for HTTPS and avoid downloading from unknown sites.");
+            Console.WriteLine("Bot: Browse smart, stay safe! Always check that websites start with ‘https://’, avoid clicking on suspicious pop-ups, and never download files from untrusted sources. Protect your privacy by keeping your browser and security software up to date");
         }
         else if (input.Contains("how are you"))
         {
