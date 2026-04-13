@@ -10,7 +10,7 @@
     \____| \__, |_.__/ \___|_|  
            |___/                                       
 
-        Cybersecurity Awareness Bot
+      Cybersecurity Awareness Bot
    ---------------------------------
    Your Friendly Cybersecurity Guide
 ";

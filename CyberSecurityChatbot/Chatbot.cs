@@ -12,7 +12,7 @@ public class Chatbot
 
     public void Start()
     {
-        Console.WriteLine($"\nHello {userName}! Ask me anything about cybersecurity.");
+        Console.WriteLine($"\nHello {userName}! \"CyberSafe Buddy is ready!\"Ask me anything about cybersecurity.");
 
         while (true)
         {
