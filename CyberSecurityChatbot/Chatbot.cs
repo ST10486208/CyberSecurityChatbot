@@ -30,7 +30,7 @@ public class Chatbot
 
             if (input.ToLower() == "exit")
             {
-                Console.WriteLine("Bot: Stay safe online! Goodbye!");
+                Console.WriteLine(" Cyberbuddy Bot: Stay safe online! Goodbye!");
                 break;
             }
 
