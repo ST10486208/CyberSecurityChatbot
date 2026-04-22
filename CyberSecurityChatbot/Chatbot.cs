@@ -45,6 +45,7 @@ public class Chatbot
         if (input.Contains("password"))
         {
             Console.WriteLine("Bot:Your password is your first line of defense! Make it strong: use at least 12 characters, mix upper and lower case letters, numbers, and symbols. Avoid personal info like birthdays or names. And remember—never reuse the same password across accounts.");
+            Console.WriteLine("Tip: Never share your password!");
         }
         else if (input.Contains("phishing"))
         {
