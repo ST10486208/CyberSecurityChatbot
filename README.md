@@ -16,3 +16,6 @@ CyberSafe Buddy is a beginner-friendly cybersecurity chatbot built in C#.
 
 ## Purpose
 This project was created to demonstrate basic programming concepts and raise cybersecurity awareness.
+
+## CI Screenshot
+![CI Success](ci-success.png)
